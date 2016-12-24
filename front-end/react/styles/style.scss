@@ -1,0 +1,74 @@
+///////////////////Home.jsx
+body{
+    font-size: 1.75em;
+    background-color: #f8f8f8;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
+
+*{
+    // -webkit-box-sizing: border-box;
+    // -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+// a{
+//     text-decoration: none;
+// }
+#wrapper{
+    width: 100%;
+}
+
+.para{
+    font-size: 1.5vw;
+}
+
+
+
+
+
+///////Animations
+
+// @keyframes slideIn {
+// 	from {
+// 		margin-left:50%;
+// 	}
+// 	to {
+// 		margin-left:10%;
+// 	}
+// }
+
+// @keyframes slideInContent {
+// 	from {
+// 		margin-left90:-50%;
+// 	}
+// 	to {
+// 		margin-left:-10%;
+// 	}
+// }
+
+// //Title Stuff
+// .header_title{
+// 	float:  left;
+// 	height: $headerIHeight;
+// 	margin: $headerMargin;
+// 	animation-name: slideIn;
+// 	animation-timing-function: ease;
+// 	animation-duration: 1s;
+// 	animation-delay: 0.5s;
+// 	animation-fill-mode: both;
+// }
+// .header_content{
+// 	animation-name: slideInContent;
+// 	animation-timing-function: ease;
+// 	animation-duration: 1s;
+// 	animation-delay: 0.5s;
+// 	animation-fill-mode: both;
+// }

@@ -1,0 +1,32 @@
+/**
+ * The Root of the React Application
+ * @author James Wake
+ * @version 0.1.0
+ */
+import React  from 'react';
+import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+// import scss from './styles/style.scss'; //Import Styles Here
+
+//Static Routing for React App
+import App from './components/App.jsx';	
+import Welcome from './components/Pages/Welcome.jsx';
+import Home from './components/Pages/Home.jsx';
+import FileSystem from './components/Pages/FileSystem.jsx';
+import Treemap from './components/Element/treemap.jsx';
+import Donutchart from './components/Element/donutchart.jsx';
+
+ReactDOM.render((
+  <Router history={browserHistory}>
+		<Route path="/" component={App}>
+			<IndexRoute component={Welcome}/> 
+			<Route path="/home" component={Home}/>
+			<Route path="/fileSystem" component={FileSystem}>
+				<IndexRoute component={Treemap}/>
+				<Route path="/donut" component={Donutchart}/>	
+			</Route>
+		{/*	<Route path="/chart" component={Chart}/>  */}
+		</Route>
+	</Router>
+), document.getElementById('react'));
