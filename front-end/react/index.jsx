@@ -11,21 +11,13 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 //Static Routing for React App
 import App from './components/App.jsx';	
-import Welcome from './components/Pages/Welcome.jsx';
-import Home from './components/Pages/Home.jsx';
-import FileSystem from './components/Pages/FileSystem.jsx';
-import Treemap from './components/Element/treemap.jsx';
-import Donutchart from './components/Element/donutchart.jsx';
+import Accordion from './components/Accordion.jsx';
 
 ReactDOM.render((
   <Router history={browserHistory}>
 		<Route path="/" component={App}>
-			<IndexRoute component={Welcome}/> 
-			<Route path="/home" component={Home}/>
-			<Route path="/fileSystem" component={FileSystem}>
-				<IndexRoute component={Treemap}/>
-				<Route path="/donut" component={Donutchart}/>	
-			</Route>
+		{/*	<IndexRoute component={Accordion}/>     */}
+			
 		{/*	<Route path="/chart" component={Chart}/>  */}
 		</Route>
 	</Router>

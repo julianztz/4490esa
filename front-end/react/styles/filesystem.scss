@@ -1,42 +1,15 @@
-.sysPage{
-    position: inherit;
-    margin: 0 0 0 250px;
-    padding: 0 30px;
-    // border-left: 1px solid #e7e7e7;
-    min-height: 568px;
-    background-color: white;
-    top: 32px;
+#fileSys{
+    min-width: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-div{
-    display: block;
-}
-
-*{
-    box-sizing: border-box;
-}
-
-.sysList{
-    margin: 50px 50px 50px 30px;
-}
-
-.sysPath{
-    list-style: none;
-    padding-left: 0;
-}
-
-// form{
-//     display: inline-block;
-// }
+//input box for directory
 .input-group {
     position: relative;
     display: table;
     border-collapse: separate;
 }
-// .form-group {
-//     margin-bottom: 15px;
-// }
-
 .input-group .form-control, .input-group-addon, .input-group-btn {
     display: table-cell;
 }
@@ -47,7 +20,6 @@ div{
     width: 100%;
     margin-bottom: 0;
 }
-
 .form-control {
     display: block;
     width: 100%;
@@ -82,10 +54,11 @@ div{
     vertical-align: middle;
 }
 
-.sysStat{
+//status
+.status-box{
     display: block;
     width: 100%;
-    height: 300px;
+    height: 50%;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
@@ -101,3 +74,39 @@ div{
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+.form-control-name {
+    // display: block;
+    // width: 100%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.filter-opt{
+    display: inline-block;
+}
+
+.hide{
+    display: none;
+
+}
+
+.show-more-options{
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #FFF;
+    left: 0;
+    // float: left;
+}
