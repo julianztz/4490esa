@@ -17,7 +17,6 @@ ReactDOM.render((
   <Router history={browserHistory}>
 		<Route path="/" component={App}>
 		{/*	<IndexRoute component={Accordion}/>     */}
-			
 		{/*	<Route path="/chart" component={Chart}/>  */}
 		</Route>
 	</Router>

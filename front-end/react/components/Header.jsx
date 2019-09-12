@@ -27,15 +27,15 @@ class Header extends React.Component {
             <ul className="navbar-right">
                                 
                   <Menu className="usericon">
-                     <MenuTrigger className='dropdown'>
+                    <MenuTrigger className='dropdown'>
                         <Link className="username">User</Link>
                         <FaUser/>
-                     </MenuTrigger>
-                        <MenuOptions>
-                            <MenuOption><FaFile/> profile</MenuOption>
-                            <MenuOption><FaCog/> setting</MenuOption>
-                            <MenuOption><FaSignOut/> sign out</MenuOption>
-                        </MenuOptions>
+                    </MenuTrigger>
+                    <MenuOptions>
+                        <MenuOption><FaFile/> profile</MenuOption>
+                        <MenuOption><FaCog/> setting</MenuOption>
+                        <MenuOption><FaSignOut/> sign out</MenuOption>
+                    </MenuOptions>
                   </Menu>
             </ul>
             </nav>

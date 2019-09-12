@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SplitPane from './splitpane/SplitPane.jsx';
-import Resizer from './splitpane/Resizer.jsx';
+// import Resizer from './splitpane/Resizer.jsx';
 
-import scss from '../styles/accordion.scss';
+// import scss from '../styles/accordion.scss';
 import FileSystem from './filesystem/FileSystem.jsx';
 import FileInfo from './fileinfo/FileInfo.jsx';
 import Graphs from './graph/Graphs.jsx';
